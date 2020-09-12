@@ -31,22 +31,24 @@
         <a href="index.html" class="brand-logo" style="font-size: 20px;">
           <img src="./assets/ablogoWhite.png" width="60" height="50" alt="atima's logo" style="margin-top: 10px;">
         </a>
-        <a href="index.html" class="sidenav-trigger" data-target="mobile-links">
+        <a href="#aboutMe" class="sidenav-trigger" data-target="mobile-links">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#services">What I Do...</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
   </div>
   <!--Nar bar mobile menu-->
   <ul class="sidenav" id="mobile-links">
-    <li><a href="index.html">About Me</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="#aboutMe">About Me</a></li>
+    <li><a href="#services">What I Do...</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 
   <h1 id="hello">Hello,</h1>
@@ -55,7 +57,7 @@
 
 
   <!--About Me -->
-  <div class="section container">
+  <section class="section container scrollspy" id="aboutMe">
     <div class="row">
       <div class="col s12 m5 l5">
         <span class="flow-text"><img src="./assets/photo.jpg" alt="atima's photo" width="250px" height="250px"></span>
@@ -71,11 +73,11 @@
         </p></span>
       </div>
     </div>
-  </div>
+  </section>
 
 
   <!--What I do...-->
-  <section class="section container" id="services">
+  <section class="section container scrollspy" id="services">
     <div class="row">
       <div class="col s12 l4">
         <h2 style="color:#1d9eda">What I do...</h2>
@@ -128,9 +130,10 @@
 
 
   <!--Portfolio -->
+  <section class="container-section scrollspy" id="portfolio">
   <h1 id="portfolio1" style="margin-top: 60px; margin-right:90px;">Portfolio</h1>
   <!-- ROW 1-->
-  <div class="row" style="margin: 20px;">
+  <div class="row scrollspy" style="margin: 20px;">
     <!--Covid-19 tracking-->
     <div class="col s12 m4 l4">
       <div class="card">
@@ -283,11 +286,10 @@
 
 
   <!--Contact Info -->
-  <h1 id="portfolio1" style="margin-top: 60px; margin-right:90px;">Contact</h1>
-  <div class="row">
-    <div class="container" style="background-color: rgba(12, 12, 12, 0.801); padding: 10px;">
+  <h1 id="contact" style="margin-top: 60px; margin-right:90px;">Contact</h1>
+  <div class="row scrollspy" style="background-color:  rgba(12, 12, 12, 0.801); width: 80%; padding: 20px;">
+    <div class="container">
       <div class="col s6 m6 l6">
-        <div class="card-content white-text">
           <h5>Contact Information</h5><br>
           <a id="mail" href="mailto: nickzehn10@hotmail.com"><i class="fas fa-envelope"></i> :
             nickzehn10@hotmail.com</a><br><br>
@@ -299,16 +301,11 @@
       </div>
       <div class="s6 m6 l6">
         <h5>Follow me : </h5>
-        <a href="https://www.facebook.com/atima.oum"><i class="fab fa-facebook-square"
-            style="font-size: 50px; margin-right: 10px;"></i></a>
-        <a href="https://www.instagram.com/oumatima/?hl=en"><i class="fab fa-instagram-square"
-            style="font-size: 50px; margin-right: 10px;"></i></a>
-        <a href="https://twitter.com/atima_oum"><i class="fab fa-twitter-square"
-            style="font-size: 50px; margin-right: 10px;"></i></a>
-        <a href="https://github.com/AtimaB"><i class="fab fa-github-square"
-            style="font-size: 50px; margin-right: 10px;"></i></a>
-        <a href="https://www.linkedin.com/in/atima-bennett-712ab01a6/"><i class="fab fa-linkedin"
-            style="font-size: 50px; margin-right: 10px;"></i></a>
+          <a href="https://www.facebook.com/atima.oum"><i class="fab fa-facebook-square" id="media"></i></a>
+          <a href="https://www.instagram.com/oumatima/?hl=en"><i class="fab fa-instagram-square" id="media"></i></a>
+          <a href="https://twitter.com/atima_oum"><i class="fab fa-twitter-square" id="media"></i></a>
+          <a href="https://github.com/AtimaB"><i class="fab fa-github-square" id="media"></i></a>
+          <a href="https://www.linkedin.com/in/atima-bennett-712ab01a6/" id="media"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
   </div>
@@ -338,7 +335,7 @@
       $('.sidenav').sidenav();
       $('.tabs').tabs();
       $('.activator').activator();
-      //   $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
     });
   </script>
 </body>

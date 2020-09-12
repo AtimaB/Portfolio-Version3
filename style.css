@@ -204,3 +204,14 @@ nav ul a:hover {
     transition: color .3s ease;
     text-transform: uppercase;
 }
+
+#media {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+#media:hover {
+    color: aqua;
+    margin-right: 10px;
+    font-size: 52px;
+}
