@@ -4,7 +4,7 @@
 
 ## Description
 
-Ubdated portfolio, I changed it up a little bit from the previous version by having all in 1 html file.
+Updated portfolio, I changed it up a little bit from the previous version by having all in 1 html file.
 
 
 ## Link
