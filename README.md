@@ -23,5 +23,6 @@ Updated portfolio, I changed it up a little bit from the previous version by hav
 
 ## Resources
 - [Materialize](https://www.https://materializecss.com/)
+- [Text Animation](https://codepen.io/Tbgse/pen/dYaJyJ)
 
 
