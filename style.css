@@ -30,7 +30,7 @@ body {
 
 #name {
     color: #b48846de;
-    font-size: 50px;
+    font-size: 40px;
     text-align: right;
     margin-right: 50px;
     margin-top: 40px;
@@ -215,3 +215,36 @@ nav ul a:hover {
     margin-right: 10px;
     font-size: 52px;
 }
+
+
+
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+   
+    font-family:Khula;
+    font-size:4em;
+    /* text-align:center; */
+    /* height:200px;
+    width:600px; */
+    /* display:block;
+    position:absolute; */
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    font-size: 45px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
